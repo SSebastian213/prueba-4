@@ -1,0 +1,38 @@
+body {
+    background-color: #666;
+    color: #111;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post-it {
+    background-color: #FFFFCC;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post-it.important {
+    background-color: #EC7063;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: #111;
+}
+.form-control{
+    margin-bottom:5px;
+}
